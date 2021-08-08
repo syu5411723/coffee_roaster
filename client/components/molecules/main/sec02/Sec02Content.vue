@@ -1,9 +1,7 @@
 ﻿<template>
   <div class="sec02-contentWrapper">
-    <div class="sec02-contentInner">
       <Sec02ContentEn />
       <Sec02ContentJp />
-    </div>
   </div>
 </template>
 
@@ -20,14 +18,9 @@ export default {
 
 <style>
 .sec02-contentWrapper {
-    width:55%;
-    height: 80%;
-}
-.sec02-contentInner {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  width: 100%;
+  width: 55%;
+  height: 80%;
+    font-size: 10px;
+  font-weight: 100;
 }
 </style>

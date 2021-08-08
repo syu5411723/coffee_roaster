@@ -17,7 +17,6 @@
 
 <style>
 .sec02-textEn {
-  font-size: 12px;
-  font-weight: 100;
+  margin-bottom: 20px;
 }
 </style>

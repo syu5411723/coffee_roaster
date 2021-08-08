@@ -1,6 +1,6 @@
 ﻿<template>
   <div>
-    <p class="sec02-textEn">
+    <p class="sec02-textJp">
       シェブロンコーヒーロースターズはスモールバッチロースタリーです。<br />
       新鮮な豆を丁寧に焙煎し高品質なコーヒーをお届けします。<br />
       美味しいコーヒーは私たちの中核部分であり、それはあなたの何気ない1日をより良い物にできるツールだと考えています。<br />
@@ -13,8 +13,6 @@
 </template>
 
 <style>
-.sec02-textEn {
-  font-size: 12px;
-  font-weight: 100;
+.sec02-textJp {
 }
 </style>

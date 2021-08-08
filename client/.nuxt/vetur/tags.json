@@ -1,0 +1,140 @@
+{
+  "PagesHome": {
+    "description": "Auto imported from components/pages/Home.vue"
+  },
+  "TemplatesFooter": {
+    "description": "Auto imported from components/templates/Footer.vue"
+  },
+  "TemplatesHeader": {
+    "description": "Auto imported from components/templates/Header.vue"
+  },
+  "TemplatesImgWrapper": {
+    "description": "Auto imported from components/templates/ImgWrapper.vue"
+  },
+  "TemplatesSec1": {
+    "description": "Auto imported from components/templates/Sec1.vue"
+  },
+  "TemplatesSec2": {
+    "description": "Auto imported from components/templates/Sec2.vue"
+  },
+  "TemplatesSec3": {
+    "description": "Auto imported from components/templates/Sec3.vue"
+  },
+  "TemplatesSec4": {
+    "description": "Auto imported from components/templates/Sec4.vue"
+  },
+  "AtomsDesignSecTitle": {
+    "description": "Auto imported from components/atoms/design/SecTitle.vue"
+  },
+  "AtomsFooterBottom": {
+    "description": "Auto imported from components/atoms/footer/FooterBottom.vue"
+  },
+  "AtomsFooterCntEn": {
+    "description": "Auto imported from components/atoms/footer/FooterCntEn.vue"
+  },
+  "AtomsFooterCntJp": {
+    "description": "Auto imported from components/atoms/footer/FooterCntJp.vue"
+  },
+  "AtomsHeaderList": {
+    "description": "Auto imported from components/atoms/header/HeaderList.vue"
+  },
+  "AtomsHeaderLogo": {
+    "description": "Auto imported from components/atoms/header/HeaderLogo.vue"
+  },
+  "AtomsHeaderTitle": {
+    "description": "Auto imported from components/atoms/header/HeaderTitle.vue"
+  },
+  "MoleculesHeaderList": {
+    "description": "Auto imported from components/molecules/header/List.vue"
+  },
+  "MoleculesHeaderLogo": {
+    "description": "Auto imported from components/molecules/header/Logo.vue"
+  },
+  "MoleculesHeaderTitle": {
+    "description": "Auto imported from components/molecules/header/Title.vue"
+  },
+  "AtomsMainSec01BottomText": {
+    "description": "Auto imported from components/atoms/main/sec01/Sec01BottomText.vue"
+  },
+  "AtomsMainSec01Date": {
+    "description": "Auto imported from components/atoms/main/sec01/Sec01Date.vue"
+  },
+  "AtomsMainSec01Image": {
+    "description": "Auto imported from components/atoms/main/sec01/Sec01Image.vue"
+  },
+  "AtomsMainSec01Title": {
+    "description": "Auto imported from components/atoms/main/sec01/Sec01Title.vue"
+  },
+  "AtomsMainSec02ContentEn": {
+    "description": "Auto imported from components/atoms/main/sec02/Sec02ContentEn.vue"
+  },
+  "AtomsMainSec02ContentJp": {
+    "description": "Auto imported from components/atoms/main/sec02/Sec02ContentJp.vue"
+  },
+  "AtomsMainSec02Image": {
+    "description": "Auto imported from components/atoms/main/sec02/Sec02Image.vue"
+  },
+  "AtomsMainSec02SubThumb": {
+    "description": "Auto imported from components/atoms/main/sec02/Sec02SubThumb.vue"
+  },
+  "AtomsMainSec02Thumb": {
+    "description": "Auto imported from components/atoms/main/sec02/Sec02Thumb.vue"
+  },
+  "AtomsMainMenuImg": {
+    "description": "Auto imported from components/atoms/main/sec03/MainMenuImg.vue"
+  },
+  "AtomsMainMenuInfo": {
+    "description": "Auto imported from components/atoms/main/sec03/MainMenuInfo.vue"
+  },
+  "AtomsMainMenuName": {
+    "description": "Auto imported from components/atoms/main/sec03/MainMenuName.vue"
+  },
+  "AtomsMainSec03SubMenuInfo": {
+    "description": "Auto imported from components/atoms/main/sec03/SubMenuInfo.vue"
+  },
+  "AtomsMainSec03SubMenuName": {
+    "description": "Auto imported from components/atoms/main/sec03/SubMenuName.vue"
+  },
+  "AtomsMainSec03SubMenuSelect": {
+    "description": "Auto imported from components/atoms/main/sec03/SubMenuSelect.vue"
+  },
+  "AtomsMainSec04Button": {
+    "description": "Auto imported from components/atoms/main/sec04/Sec04Button.vue"
+  },
+  "AtomsMainSec04Content": {
+    "description": "Auto imported from components/atoms/main/sec04/Sec04Content.vue"
+  },
+  "AtomsMainSec04Img": {
+    "description": "Auto imported from components/atoms/main/sec04/Sec04Img.vue"
+  },
+  "MoleculesMainMenu": {
+    "description": "Auto imported from components/molecules/main/sec03/MainMenu.vue"
+  },
+  "MoleculesMainSec03SubMenu": {
+    "description": "Auto imported from components/molecules/main/sec03/SubMenu.vue"
+  },
+  "MoleculesMainSec02Content": {
+    "description": "Auto imported from components/molecules/main/sec02/Sec02Content.vue"
+  },
+  "MoleculesMainSec02Image": {
+    "description": "Auto imported from components/molecules/main/sec02/Sec02Image.vue"
+  },
+  "MoleculesMainSec02Title": {
+    "description": "Auto imported from components/molecules/main/sec02/Sec02Title.vue"
+  },
+  "MoleculesMainSec04FromOnline": {
+    "description": "Auto imported from components/molecules/main/sec04/FromOnline.vue"
+  },
+  "MoleculesMainSec04Img": {
+    "description": "Auto imported from components/molecules/main/sec04/Sec04Img.vue"
+  },
+  "MoleculesMainSec04Text": {
+    "description": "Auto imported from components/molecules/main/sec04/Sec04Text.vue"
+  },
+  "MoleculesMainSec01Bottom": {
+    "description": "Auto imported from components/molecules/main/sec01/Sec01Bottom.vue"
+  },
+  "MoleculesMainSec01Main": {
+    "description": "Auto imported from components/molecules/main/sec01/Sec01Main.vue"
+  }
+}

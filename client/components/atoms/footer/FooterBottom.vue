@@ -1,0 +1,26 @@
+﻿<template>
+  <div class="footer-bottom-container">
+    <div class="footer-bottom-a">
+      <p>Contact：</p>
+      <p>Copyright chevroncoffee all rights</p>
+    </div>
+    <div class="footer-bottom-b">
+      <p>Mai.</p>
+      <p>1-1-16 Tezukayamanaka, Sumiyoshi-ku, Osaka, Japan</p>
+      <p>reserved 2021</p>
+    </div>
+  </div>
+</template>
+
+<style>
+.footer-bottom-container {
+}
+.footer-bottom-a {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-b {
+    display: flex;
+    justify-content: space-between;
+}
+</style>

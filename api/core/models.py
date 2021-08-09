@@ -14,7 +14,7 @@ class OtherMenu(models.Model):
     name = models.CharField(max_length=50)
     picture = models.FileField()
     water_temperature = models.CharField(choices=TEMPERAUTRE, max_length=10, null=True)
-    espresso = models.CharField(choice=ESPRESSO ,max_length=50, null=True)
+    espresso = models.CharField(choices=ESPRESSO ,max_length=50, null=True)
     soft_drink = models.BooleanField(default=False)
     for_kids = models.BooleanField(default=False)
 

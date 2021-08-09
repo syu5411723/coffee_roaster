@@ -1,20 +1,20 @@
 ﻿from rest_framework import serializers
 from .models import OtherMenu, Menu
 
-class OtherMenuSeliaraizer(serializers.ModelSeliaraizer):
+class OtherMenuSeliaraizer(serializers.ModelSerializer):
     class Meta:
         model = OtherMenu
         fields = (
             'id',
             'name',
-            'picture'
+            'picture',
             'water_temperature',
-            'espreso',
+            'espresso',
             'soft_drink',
             'for_kids',
         )
 
-class MenuSeliaraizer(serializers.ModelSeliaraizer):
+class MenuSeliaraizer(serializers.ModelSerializer):
     class Meta:
         model = Menu
         fields = (

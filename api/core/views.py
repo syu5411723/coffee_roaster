@@ -7,5 +7,5 @@ class MenuViewSet(viewsets.ModelViewSet):
     queryset = Menu.objects.all()
 
 class OtherMenuViewSet(viewsets.ModelViewSet):
-    serializer_class = OtherMenu
+    serializer_class = OtherMenuSeliaraizer
     queryset = OtherMenu.objects.all()

@@ -1,8 +1,14 @@
 ﻿<template>
-  <div>
-    <main-menu-img />
-    <main-menu-name />
-    <main-menu-info />
+  <div class="main-menu-conrainer">
+    <template v-for="menu in menus">
+      <div :key="menu.id">
+        <div class="main-menu-img-wrapper">
+          <main-menu-img :menu="menu"/>
+        </div>
+        <main-menu-name :menu="menu"/>
+        <main-menu-info :menu="menu"></main-menu-info>
+      </div>
+    </template>
   </div>
 </template>
 
@@ -10,10 +16,35 @@
 import MainMenuImg from "../../../atoms/main/sec03/MainMenuImg.vue";
 import MainMenuInfo from "../../../atoms/main/sec03/MainMenuInfo.vue";
 import MainMenuName from "../../../atoms/main/sec03/MainMenuName.vue";
+
 export default {
-  components: { MainMenuName, MainMenuImg, MainMenuInfo },
+  head() {
+    return {
+      title: "coffee",
+    };
+  },
+  components: {
+    MainMenuName,
+    MainMenuImg,
+    MainMenuInfo,
+  },
+  props: ["menus"],
 };
 </script>
 
 <style>
+.main-menu-conrainer {
+  width: 70%;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.main-menu-img-wrapper {
+  width: 95%;
+  position: relative;
+}
+.sub-menu-conrainer {
+  text-align:left;
+
+}
 </style>

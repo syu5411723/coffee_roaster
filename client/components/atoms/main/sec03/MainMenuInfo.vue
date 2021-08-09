@@ -1,17 +1,21 @@
 ﻿<template>
-  <div>
-    <p class="menu-info">{{ info }}</p>
+  <div class="menu-info-wrapper">
+    <p class="menu-size">{{ menu.size }} </p>
+    <p class="menu-price"> {{ menu.price }}</p>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["info"],
+  props: ["menu"],
 };
 </script>
 
 <style>
+.menu-info-wrapper {
+  display: flex;
+}
 .menu-name {
-    
+  margin-top: 5px;
 }
 </style>

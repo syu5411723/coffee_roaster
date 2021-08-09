@@ -1,17 +1,16 @@
 ﻿<template>
-    <div>
-        <h3  class="sub-menu-name">{{subName}}</h3>
-    </div>
+  <div>
+    <h3 class="sub-menu-name">{{ otherMenu.name }}</h3>
+  </div>
 </template>
 
 <script>
 export default {
-    props: ['subName']
-}
+  props: ["otherMenu"],
+};
 </script>
 
 <style>
 .sub-menu-name {
-
 }
 </style>

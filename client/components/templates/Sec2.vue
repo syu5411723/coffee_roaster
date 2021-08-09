@@ -21,7 +21,8 @@ export default {
 .sec02 {
   width: 100%;
   height: 100vh;
-  background-color: #edece7;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .sec02-container {
   width: 80%;

@@ -11,12 +11,18 @@ class OtherMenu(models.Model):
         ("Single", "Single"),
         ("Double", "Double"),
     )
+    SIZE = (
+        ("Small", "Small"),
+        ("Regular", "Regular"),
+        ("Large", "Large"),
+    )
     name = models.CharField(max_length=50)
-    picture = models.FileField()
-    water_temperature = models.CharField(choices=TEMPERAUTRE, max_length=10, null=True)
+    price = models.IntegerField(default=0)
+    size = models.CharField(choices=SIZE, max_length=30, null=True)
+    temperature = models.CharField(choices=TEMPERAUTRE, max_length=10, null=True)
     espresso = models.CharField(choices=ESPRESSO ,max_length=50, null=True)
-    soft_drink = models.BooleanField(default=False)
-    for_kids = models.BooleanField(default=False)
+    softDrink = models.BooleanField(default=False)
+    forKids = models.BooleanField(default=False)
 
     def __str__(self):
         return self.name

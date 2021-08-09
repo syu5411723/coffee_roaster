@@ -8,10 +8,10 @@ class OtherMenuSeliaraizer(serializers.ModelSerializer):
             'id',
             'name',
             'picture',
-            'water_temperature',
+            'temperature',
             'espresso',
-            'soft_drink',
-            'for_kids',
+            'softDrink',
+            'kids',
         )
 
 class MenuSeliaraizer(serializers.ModelSerializer):

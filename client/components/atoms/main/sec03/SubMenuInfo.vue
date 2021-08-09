@@ -1,12 +1,12 @@
 ﻿<template>
     <div>
-        <p  class="sub-menu-info">{{ subInfo }}</p>
+        <p  class="sub-menu-info">{{ otherMenu.espresso }}</p>
     </div>
 </template>
 
 <script>
 export default {
-    props: ['subInfo']
+    props: ['otherMenu']
 }
 </script>
 

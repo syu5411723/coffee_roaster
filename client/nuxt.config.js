@@ -47,8 +47,13 @@ export default {
       lang: 'en'
     }
   },
-
+  // Axios module configuration
+  //See https://axios.nuxtjs.org/options.
+  axios: {
+    baseURL: 'http://localhost:8000/api'
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    extend(config, ctx) {}
   }
 }

@@ -50,21 +50,16 @@ export default {
       otherMenus: [],
     };
   },
-  ohtercData(context) {
-    
-    return {
-      others: data,
-    };
-  },
   async asyncData({ $axios, params }) {
     try {
       const menus = await $axios.$get(`/menu/`);
       const otherMenus = await $axios.$get(`/other-menu/`);
       return { menus, otherMenus };
     } catch (e) {
+      const data = sampleData
       return {
-        menus: [],
-        otherMenus: [],
+        menus: data,
+        otherMenus: data,
         };
     }
   },

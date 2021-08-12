@@ -5,8 +5,11 @@
         <sec-title text="Menu" />
         <main-menu :menus="menus" />
       </div>
-      <div class="subMenu-wrapper">
-        <sub-menu :otherMenus="otherMenus" />
+      <div class="other-menu-wrapper">
+        <div class="other-menu-inner">
+          <p class="other-menu-title">Other Menu</p>
+          <sub-menu :otherMenus="otherMenus" />
+        </div>
       </div>
     </div>
   </section>
@@ -18,13 +21,12 @@ import MainMenu from "../molecules/main/sec03/MainMenu.vue";
 import SubMenu from "../molecules/main/sec03/SubMenu.vue";
 export default {
   components: { MainMenu, SubMenu, SecTitle },
-  props: ['menus', 'otherMenus'],
+  props: ["menus", "otherMenus"],
 };
 </script>
 
 <style>
 .sec03-container {
-  padding-bottom: 150px;
 }
 .sec03-inner {
   width: 95%;
@@ -36,5 +38,14 @@ export default {
   display: flex;
   justify-content: space-between;
 }
-
+.other-menu-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.other-menu-inner {
+  width:70%
+}
+.other-menu-title {
+  border-bottom: 1px solid #333;
+}
 </style>

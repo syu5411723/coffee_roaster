@@ -8,13 +8,11 @@
     </div>
 </template>
 
-<script>
-export default {
-    
-}
-</script>
 <style>
 .sec04-button-content {
-    font-size: 12px;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
 }
 </style>

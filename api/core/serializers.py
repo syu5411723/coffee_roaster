@@ -7,11 +7,12 @@ class OtherMenuSeliaraizer(serializers.ModelSerializer):
         fields = (
             'id',
             'name',
-            'picture',
             'temperature',
+            'size', 
+            'price',
             'espresso',
             'softDrink',
-            'kids',
+            'forKids',
         )
 
 class MenuSeliaraizer(serializers.ModelSerializer):

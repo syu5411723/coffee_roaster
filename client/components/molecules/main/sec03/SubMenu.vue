@@ -1,28 +1,53 @@
 ﻿<template>
   <div>
-    <template v-for="otherMenu in otherMenus"> 
-      <div :key="otherMenu.id">
-        <sub-menu-name :otherMenu="otherMenu"></sub-menu-name>
-        <sub-menu-select :otherMenu="otherMenu"></sub-menu-select>
-        <sub-menu-info :otherMenu="otherMenu"></sub-menu-info>
+    <template v-for="otherMenu in otherMenus">
+      <div :key="otherMenu.id" class="other-menu-lists">
+        <div class="other-menu-left">
+          <sub-menu-left :otherMenu="otherMenu" />
+        </div>
+        <div class="other-menu-center">
+          <sub-menu-center :otherMenu="otherMenu" />
+        </div>
+        <div class="other-menu-right">
+          <sub-menu-right :otherMenu="otherMenu" />
+        </div>
       </div>
     </template>
   </div>
 </template>
 
 <script>
-import SubMenuInfo from "../../../atoms/main/sec03/SubMenuInfo.vue";
-import SubMenuName from "../../../atoms/main/sec03/SubMenuName.vue";
-import SubMenuSelect from "../../../atoms/main/sec03/SubMenuSelect.vue";
+import SubMenuCenter from "../../../atoms/main/sec03/SubMenuCenter.vue";
+import SubMenuRight from "../../../atoms/main/sec03/SubMenuRight.vue";
+import SubMenuLeft from "../../../atoms/main/sec03/SubMenuLeft.vue";
+
 export default {
   components: {
-    SubMenuName,
-    SubMenuSelect,
-    SubMenuInfo
+    SubMenuCenter,
+    SubMenuRight,
+    SubMenuLeft,
   },
   props: ["otherMenus"],
 };
 </script>
 
 <style>
+.other-menu-lists {
+  width: 100%;
+  height: 10vw;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.other-menu-left {
+  width: 33.3%;
+}
+.other-menu-center {
+  width: 33.3%;
+}
+.other-menu-right {
+  width: 33.3%;
+  display: flex;
+  justify-content: space-between;
+}
 </style>

@@ -12,13 +12,7 @@
 
 
 <script>
-import Header from "../templates/Header.vue";
-import Footer from "../templates/Footer.vue";
-import Sec1 from "../templates/Sec1.vue";
-import Sec2 from "../templates/Sec2.vue";
-import Sec3 from "../templates/Sec3.vue";
-import Sec4 from "../templates/Sec4.vue";
-import ImgWrapper from "../templates/ImgWrapper.vue";
+import {Header, Footer, Sec1, Sec2, Sec3, Sec4, ImgWrapper} from "~/components/templates"
 
 export default {
   components: {

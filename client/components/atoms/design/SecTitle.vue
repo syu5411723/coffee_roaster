@@ -15,5 +15,7 @@ export default {
 </script>
 
 <style>
-
+.sec-titile-text {
+    font-size: 22px;
+}
 </style>

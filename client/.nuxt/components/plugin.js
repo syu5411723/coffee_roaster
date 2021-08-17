@@ -25,9 +25,6 @@ const components = {
   AtomsMainSec02ContentJp: () => import('../../components/atoms/main/sec02/Sec02ContentJp.vue' /* webpackChunkName: "components/atoms-main-sec02-content-jp" */).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec02SubThumb: () => import('../../components/atoms/main/sec02/Sec02SubThumb.vue' /* webpackChunkName: "components/atoms-main-sec02-sub-thumb" */).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec02Thumb: () => import('../../components/atoms/main/sec02/Sec02Thumb.vue' /* webpackChunkName: "components/atoms-main-sec02-thumb" */).then(c => wrapFunctional(c.default || c)),
-  AtomsMainSec04Button: () => import('../../components/atoms/main/sec04/Sec04Button.vue' /* webpackChunkName: "components/atoms-main-sec04-button" */).then(c => wrapFunctional(c.default || c)),
-  AtomsMainSec04Content: () => import('../../components/atoms/main/sec04/Sec04Content.vue' /* webpackChunkName: "components/atoms-main-sec04-content" */).then(c => wrapFunctional(c.default || c)),
-  AtomsMainSec04: () => import('../../components/atoms/main/sec04/index.js' /* webpackChunkName: "components/atoms-main-sec04" */).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec01BottomText: () => import('../../components/atoms/main/sec01/Sec01BottomText.vue' /* webpackChunkName: "components/atoms-main-sec01-bottom-text" */).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec01Date: () => import('../../components/atoms/main/sec01/Sec01Date.vue' /* webpackChunkName: "components/atoms-main-sec01-date" */).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec01Image: () => import('../../components/atoms/main/sec01/Sec01Image.vue' /* webpackChunkName: "components/atoms-main-sec01-image" */).then(c => wrapFunctional(c.default || c)),
@@ -38,6 +35,11 @@ const components = {
   AtomsMainSec03SubMenuCenter: () => import('../../components/atoms/main/sec03/SubMenuCenter.vue' /* webpackChunkName: "components/atoms-main-sec03-sub-menu-center" */).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec03SubMenuLeft: () => import('../../components/atoms/main/sec03/SubMenuLeft.vue' /* webpackChunkName: "components/atoms-main-sec03-sub-menu-left" */).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec03SubMenuRight: () => import('../../components/atoms/main/sec03/SubMenuRight.vue' /* webpackChunkName: "components/atoms-main-sec03-sub-menu-right" */).then(c => wrapFunctional(c.default || c)),
+  AtomsMainSec04Button: () => import('../../components/atoms/main/sec04/Sec04Button.vue' /* webpackChunkName: "components/atoms-main-sec04-button" */).then(c => wrapFunctional(c.default || c)),
+  AtomsMainSec04Content: () => import('../../components/atoms/main/sec04/Sec04Content.vue' /* webpackChunkName: "components/atoms-main-sec04-content" */).then(c => wrapFunctional(c.default || c)),
+  AtomsMainSec04: () => import('../../components/atoms/main/sec04/index.js' /* webpackChunkName: "components/atoms-main-sec04" */).then(c => wrapFunctional(c.default || c)),
+  MoleculesMainSec01Bottom: () => import('../../components/molecules/main/sec01/Sec01Bottom.vue' /* webpackChunkName: "components/molecules-main-sec01-bottom" */).then(c => wrapFunctional(c.default || c)),
+  MoleculesMainSec01Main: () => import('../../components/molecules/main/sec01/Sec01Main.vue' /* webpackChunkName: "components/molecules-main-sec01-main" */).then(c => wrapFunctional(c.default || c)),
   MoleculesMainSec02Content: () => import('../../components/molecules/main/sec02/Sec02Content.vue' /* webpackChunkName: "components/molecules-main-sec02-content" */).then(c => wrapFunctional(c.default || c)),
   MoleculesMainSec02Image: () => import('../../components/molecules/main/sec02/Sec02Image.vue' /* webpackChunkName: "components/molecules-main-sec02-image" */).then(c => wrapFunctional(c.default || c)),
   MoleculesMainSec02Title: () => import('../../components/molecules/main/sec02/Sec02Title.vue' /* webpackChunkName: "components/molecules-main-sec02-title" */).then(c => wrapFunctional(c.default || c)),
@@ -47,9 +49,7 @@ const components = {
   MoleculesMainSec04Img: () => import('../../components/molecules/main/sec04/Sec04Img.vue' /* webpackChunkName: "components/molecules-main-sec04-img" */).then(c => wrapFunctional(c.default || c)),
   MoleculesMainSec04Img02: () => import('../../components/molecules/main/sec04/Sec04Img02.vue' /* webpackChunkName: "components/molecules-main-sec04-img02" */).then(c => wrapFunctional(c.default || c)),
   MoleculesMainSec04Text: () => import('../../components/molecules/main/sec04/Sec04Text.vue' /* webpackChunkName: "components/molecules-main-sec04-text" */).then(c => wrapFunctional(c.default || c)),
-  MoleculesMainSec04: () => import('../../components/molecules/main/sec04/index.js' /* webpackChunkName: "components/molecules-main-sec04" */).then(c => wrapFunctional(c.default || c)),
-  MoleculesMainSec01Bottom: () => import('../../components/molecules/main/sec01/Sec01Bottom.vue' /* webpackChunkName: "components/molecules-main-sec01-bottom" */).then(c => wrapFunctional(c.default || c)),
-  MoleculesMainSec01Main: () => import('../../components/molecules/main/sec01/Sec01Main.vue' /* webpackChunkName: "components/molecules-main-sec01-main" */).then(c => wrapFunctional(c.default || c))
+  MoleculesMainSec04: () => import('../../components/molecules/main/sec04/index.js' /* webpackChunkName: "components/molecules-main-sec04" */).then(c => wrapFunctional(c.default || c))
 }
 
 for (const name in components) {

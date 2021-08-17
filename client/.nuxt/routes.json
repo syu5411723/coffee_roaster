@@ -3,7 +3,6 @@
     "name": "index",
     "path": "/",
     "component": "/Users/maemaestoro/full_stack/coffee_roaster/coffee_roaster/client/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_7af29124"
+    "chunkName": "pages/index"
   }
 ]

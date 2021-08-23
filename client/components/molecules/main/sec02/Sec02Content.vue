@@ -1,7 +1,9 @@
 ﻿<template>
-  <div class="sec02-contentWrapper">
+  <div id="work-trigger">
+    <div id="sec02-contentWrapper">
       <Sec02ContentEn />
       <Sec02ContentJp />
+    </div>
   </div>
 </template>
 
@@ -13,14 +15,36 @@ export default {
     Sec02ContentJp,
     Sec02ContentEn,
   },
+  mounted() {
+    const scene1 = this.$scrollmagic
+      .scene({
+        triggerElement: "#work-trigger",
+        triggerHook: 0.8,
+        // duration: 500,
+        // reverse: false,
+      })
+      .setTween("#sec02-contentWrapper", {
+        css: {
+          opacity: "1",
+          transform: "translateX(100px)",
+        },
+      });
+    this.$scrollmagic.addScene(scene1);
+  },
 };
 </script>
 
-<style>
-.sec02-contentWrapper {
+<style scoped>
+#sec02-contentWrapper {
   width: 55%;
   height: 80%;
-    font-size: 10px;
+  font-size: 10px;
   font-weight: 100;
+  opacity: 0;
+  transform: translateX(0);
+}
+.sec02-contentWrapper-toggle {
+  width: 100%;
+  height: 100%;
 }
 </style>

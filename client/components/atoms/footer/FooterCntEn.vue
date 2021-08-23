@@ -26,9 +26,10 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-size: 10px;
+
 }
 .footer-cntText-en {
-  margin-bottom: 3px;
-  font-size: 12px;
+    margin-bottom: 4px;
 }
 </style>

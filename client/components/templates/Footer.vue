@@ -4,6 +4,7 @@
       <div class="footer-content">
         <FooterCntJp />
         <FooterCntEn />
+        <div class="footer-meta-wrapper" />
       </div>
       <FooterBootom />
     </div>
@@ -27,6 +28,7 @@ export default {
 .footer-container {
     width: 100%;
     height: 100%;
+    margin-bottom: 20px;
 }
 .footer-inner {
     width: 95%;
@@ -36,7 +38,12 @@ export default {
     justify-content: space-between;
     
 }
+.footer-meta-wrapper {
+  width: 40%;
+}
 .footer-content {
+    font-size: 10px;
+    margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
 }

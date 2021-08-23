@@ -14,6 +14,7 @@
 
 <style>
 .footer-bottom-container {
+  font-size: 10px;
 }
 .footer-bottom-a {
     display: flex;

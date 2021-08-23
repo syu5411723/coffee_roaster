@@ -16,7 +16,6 @@
     flex-direction: column;
 }
 .footer-cntText-jp {
-    margin-bottom: 3px;
-    font-size: 12px;
+    margin-bottom: 4px;
 }
 </style>

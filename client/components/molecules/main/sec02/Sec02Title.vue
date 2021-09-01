@@ -15,26 +15,11 @@ export default {
     Sec02Thumb,
     Sec02SubThumb,
   },
-  // mounted() {
-  //   const scene2 = this.$scrollmagic
-  //     .scene({
-  //       ttriggerElemet: "#work-trigger",
-  //       triggerHook: 0.6,
-  //     })
-  //     .setTween("#title-trigger", {
-  //       css: {
-  //         opacity: "0",
-  //         left: "-10%",
-  //       },
-  //     });
-  //   this.$scrollmagic.addScene(scene2);
-  // },
   mounted() {
     const scene2 = this.$scrollmagic
       .scene({
         triggerElement: "#title-trigger",
         triggerHook: 0.5,
-        // reverse: false,
       })
       .setTween("#title-trigger", {
         css: {

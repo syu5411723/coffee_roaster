@@ -5,10 +5,12 @@
         <sec-title text="Menu" />
         <main-menu :menus="menus" />
       </div>
-      <div class="other-menu-wrapper">
+      <div class="other-menu-wrapper" id="other-menu-trigger">
         <div class="other-menu-inner">
-          <p class="other-menu-title">Other Menu</p>
-          <sub-menu :otherMenus="otherMenus" />
+          <p class="other-menu-title" id="other-menu-title">Other Menu</p>
+          <div id="other-menu-content-wrapper">
+            <sub-menu :otherMenus="otherMenus" />
+          </div>
         </div>
       </div>
     </div>
@@ -22,6 +24,34 @@ import SubMenu from "../molecules/main/sec03/SubMenu.vue";
 export default {
   components: { MainMenu, SubMenu, SecTitle },
   props: ["menus", "otherMenus"],
+  mounted() {
+    const scene2 = this.$scrollmagic
+      .scene({
+        triggerElement: "#other-menu-trigger",
+        triggerHook: 0.8,
+      })
+      .setTween("#other-menu-title", {
+        css: {
+          opacity: "1",
+          transform: "translateY(0)",
+          transition: "ease-in",
+        },
+      });
+    const scene3 = this.$scrollmagic
+      .scene({
+        triggerElement: "#other-menu-trigger",
+        triggerHook: 0.6,
+      })
+      .setTween("#other-menu-content-wrapper", {
+        css: { 
+          opacity: "1",
+          transform: "translateX(0)",
+          transition: "ease-in",
+        }
+      });
+    this.$scrollmagic.addScene(scene2);
+    this.$scrollmagic.addScene(scene3)
+  },
 };
 </script>
 
@@ -43,9 +73,16 @@ export default {
   justify-content: flex-end;
 }
 .other-menu-inner {
-  width:70%
+  width: 70%;
 }
-.other-menu-title {
+#other-menu-title {
   border-bottom: 1px solid #333;
+  opacity: 0;
+  transform: translateY(100px);
+}
+#other-menu-content-wrapper {
+  opacity: 0;
+  transform: translateX(100px);
+
 }
 </style>

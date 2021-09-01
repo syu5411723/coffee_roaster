@@ -19,14 +19,14 @@ export default {
     const scene1 = this.$scrollmagic
       .scene({
         triggerElement: "#work-trigger",
-        triggerHook: 0.8,
-        // duration: 500,
+        triggerHook: 0.2,
         // reverse: false,
       })
       .setTween("#sec02-contentWrapper", {
         css: {
           opacity: "1",
-          transform: "translateX(100px)",
+          transform: "translateX(50px)",
+            transition: "ease-in",
         },
       });
     this.$scrollmagic.addScene(scene1);
@@ -41,10 +41,7 @@ export default {
   font-size: 10px;
   font-weight: 100;
   opacity: 0;
-  transform: translateX(0);
-}
-.sec02-contentWrapper-toggle {
-  width: 100%;
-  height: 100%;
+  transform: translateX(20);
+  transition: ease-in;
 }
 </style>

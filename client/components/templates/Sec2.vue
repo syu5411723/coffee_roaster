@@ -3,17 +3,18 @@
     <div class="sec02-container">
       <div class="sec02-inner">
         <sec-02-content />
-        <sec-02-img />
+        <sec-02-title />
+        <sec-02-image />
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import Sec02Content from "../molecules/main/sec02/Sec02Content.vue";
-import Sec02Img from "../molecules/main/sec02/Sec02Image.vue";
+import {Sec02Content, Sec02Image, Sec02Title} from "~/components/molecules/main/sec02";
+
 export default {
-  components: { Sec02Content, Sec02Img },
+  components: { Sec02Content, Sec02Image, Sec02Title},
 };
 </script>
 

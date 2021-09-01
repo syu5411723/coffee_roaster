@@ -3,7 +3,7 @@
     <div class="sec02-img-wrapper">
       <img
         class="sec02-img"
-        src="../../../../static/images/concept_full.jpg"
+        src="~/static/images/concept_full.jpg"
         alt="consept_full"
       />
     </div>

@@ -1,7 +1,9 @@
 ﻿<template>
-  <div>
-    <Sec02SubThumb />
-    <Sec02Thumb />
+  <div id="title-trigger">
+    <div id="sec02-title-wrapper">
+      <Sec02SubThumb />
+      <Sec02Thumb />
+    </div>
   </div>
 </template>
 
@@ -13,5 +15,46 @@ export default {
     Sec02Thumb,
     Sec02SubThumb,
   },
+  // mounted() {
+  //   const scene2 = this.$scrollmagic
+  //     .scene({
+  //       ttriggerElemet: "#work-trigger",
+  //       triggerHook: 0.6,
+  //     })
+  //     .setTween("#title-trigger", {
+  //       css: {
+  //         opacity: "0",
+  //         left: "-10%",
+  //       },
+  //     });
+  //   this.$scrollmagic.addScene(scene2);
+  // },
+  mounted() {
+    const scene2 = this.$scrollmagic
+      .scene({
+        triggerElement: "#title-trigger",
+        triggerHook: 0.5,
+        // reverse: false,
+      })
+      .setTween("#title-trigger", {
+        css: {
+          opacity: "0",
+          left: "-10%",
+            transition: "ease-in",
+        },
+      });
+    this.$scrollmagic.addScene(scene2);
+  },
 };
 </script>
+
+<style scoped>
+#title-trigger {
+  opacity: 1;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+#sec02-title-wrapper {
+}
+</style>

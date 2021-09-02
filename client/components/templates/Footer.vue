@@ -1,7 +1,8 @@
 ﻿<template>
   <div class="footer-container">
     <div class="footer-inner">
-      <div class="footer-content">
+    <div id="footer-title">Location</div>
+      <div class="footer-content" id="footer-trigger">
         <FooterCntJp />
         <FooterCntEn />
         <div class="footer-meta-wrapper" />
@@ -21,6 +22,21 @@ export default {
     FooterCntEn,
     FooterBootom,
   },
+  mounted() {
+    const scene = this.$scrollmagic
+    .scene({
+      triggerElement: "#footer-title",
+      triggerHook: 0.7,
+    })
+    .setTween("#footer-trigger", {
+      css:{
+        opacity: "1",
+        transform: "translateX(0)",
+        transition: "ease-in all 0.7s",
+      }
+    });
+    this.$scrollmagic.addScene(scene);
+  }
 };
 </script>
 
@@ -37,6 +53,13 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     
+}
+#footer-trigger {
+  transform: translateX(-50px);
+  opacity: 0;
+}
+#footer-title {
+  margin-bottom: 30px;
 }
 .footer-meta-wrapper {
   width: 40%;

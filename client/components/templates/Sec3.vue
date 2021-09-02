@@ -3,7 +3,9 @@
     <div class="sec03-inner">
       <div class="mainMenu-wrapper">
         <sec-title text="Menu" />
-        <main-menu :menus="menus" />
+        <div id="main-menu-trigger">
+          <main-menu :menus="menus" />
+        </div>
       </div>
       <div class="other-menu-wrapper" id="other-menu-trigger">
         <div class="other-menu-inner">
@@ -43,14 +45,28 @@ export default {
         triggerHook: 0.6,
       })
       .setTween("#other-menu-content-wrapper", {
-        css: { 
+        css: {
           opacity: "1",
           transform: "translateX(0)",
           transition: "ease-in",
-        }
+        },
       });
+      const scene4 = this.$scrollmagic
+      .scene({
+        triggerElement: "#main-menu-trigger",
+        triggerHook: 0.8
+      })
+      .setTween("#main-menu-trigger", {
+        css: {
+          opacity: "1",
+          transform: "translateY(0)",
+          transtion: "ease-in",
+        }
+      })
+
     this.$scrollmagic.addScene(scene2);
-    this.$scrollmagic.addScene(scene3)
+    this.$scrollmagic.addScene(scene3);
+    this.$scrollmagic.addScene(scene4);
   },
 };
 </script>
@@ -68,6 +84,13 @@ export default {
   display: flex;
   justify-content: space-between;
 }
+#main-menu-trigger {
+  opacity: 0;
+  transform: translateY(60px);
+  width: 70%;
+  display: flex;
+  justify-content:flex-end;
+}
 .other-menu-wrapper {
   display: flex;
   justify-content: flex-end;
@@ -83,6 +106,5 @@ export default {
 #other-menu-content-wrapper {
   opacity: 0;
   transform: translateX(100px);
-
 }
 </style>

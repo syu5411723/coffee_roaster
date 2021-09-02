@@ -1,11 +1,11 @@
 ﻿<template>
   <div class="main-menu-conrainer">
-    <template v-for="menu in menus">
+    <template v-for="menu in limitCount">
       <div :key="menu.id">
         <div class="main-menu-img-wrapper">
-          <main-menu-img :menu="menu"/>
+          <main-menu-img :menu="menu" />
         </div>
-        <main-menu-name :menu="menu"/>
+        <main-menu-name :menu="menu" />
         <main-menu-info :menu="menu"></main-menu-info>
       </div>
     </template>
@@ -29,13 +29,17 @@ export default {
     MainMenuInfo,
   },
   props: ["menus"],
+  computed: {
+    limitCount() {
+      return this.menus.slice(0, 3);
+    },
+  },
 };
 </script>
 
 <style>
 .main-menu-conrainer {
-  width: 70%;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
 }
@@ -44,7 +48,6 @@ export default {
   position: relative;
 }
 .sub-menu-conrainer {
-  text-align:left;
-
+  text-align: left;
 }
 </style>

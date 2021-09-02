@@ -32,7 +32,7 @@ export default {
       css:{
         opacity: "1",
         transform: "translateX(0)",
-        transition: "ease-in all 0.7s",
+        transition: "ease all 0.5s",
       }
     });
     this.$scrollmagic.addScene(scene);

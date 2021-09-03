@@ -102,6 +102,8 @@ export default {
   border-bottom: 1px solid #333;
   opacity: 0;
   transform: translateY(100px);
+  font-size: 18px;
+  padding-bottom: 10px;
 }
 #other-menu-content-wrapper {
   opacity: 0;

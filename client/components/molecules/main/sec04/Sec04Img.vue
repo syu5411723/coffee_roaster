@@ -1,7 +1,7 @@
 ﻿<template>
     <div class="sec04-img-wrapper">
         <img class="sec04-img" src="../../../../static/images/bean.jpg" alt="">
-        <p class="se04-img-text">Wholebean</p>
+        <p class="sec04-img-text">Wholebean</p>
     </div>
 </template>
 
@@ -14,7 +14,9 @@
     width: 49vw;
     height: 20vw;
 }
-.se04-img-text {
-    font-size: 10px;
+.sec04-img-text {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
 }
 </style>

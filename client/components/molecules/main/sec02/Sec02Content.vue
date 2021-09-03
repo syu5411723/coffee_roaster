@@ -19,7 +19,7 @@ export default {
     const scene1 = this.$scrollmagic
       .scene({
         triggerElement: "#work-trigger",
-        triggerHook: 0.2,
+        triggerHook: 0.4,
         // reverse: false,
       })
       .setTween("#sec02-contentWrapper", {

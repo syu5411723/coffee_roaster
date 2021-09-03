@@ -5,7 +5,6 @@
       <div class="footer-content" id="footer-trigger">
         <FooterCntJp />
         <FooterCntEn />
-        <div class="footer-meta-wrapper" />
       </div>
       <FooterBootom />
     </div>
@@ -68,6 +67,6 @@ export default {
     font-size: 10px;
     margin-bottom: 70px;
     display: flex;
-    justify-content: space-between;
+    width: 100%;
 }
 </style>

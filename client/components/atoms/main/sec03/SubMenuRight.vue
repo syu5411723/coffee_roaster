@@ -1,5 +1,5 @@
 ﻿<template>
-  <div>
+  <div class="sub-menu-info-wrapper">
     <p class="">{{ otherMenu.size }}</p>
     <p class="sub-menu-info">{{ otherMenu.price }}</p>
   </div>
@@ -13,5 +13,10 @@ export default {
 
 <style>
 .sub-menu-info {
+  margin-left: 30px;
 }
+.sub-menu-info-wrapper {
+  display: flex;
+}
+
 </style>

@@ -19,7 +19,7 @@ export default {
     const scene2 = this.$scrollmagic
       .scene({
         triggerElement: "#title-trigger",
-        triggerHook: 0.5,
+        triggerHook: 0.7,
       })
       .setTween("#title-trigger", {
         css: {

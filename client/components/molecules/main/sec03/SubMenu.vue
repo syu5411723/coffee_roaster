@@ -33,6 +33,7 @@ export default {
 
 <style>
 .other-menu-lists {
+  margin-top: 15px;
   width: 100%;
   height: 10vw;
   display: flex;
@@ -47,7 +48,5 @@ export default {
 }
 .other-menu-right {
   width: 33.3%;
-  display: flex;
-  justify-content: space-between;
 }
 </style>

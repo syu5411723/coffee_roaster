@@ -67,7 +67,7 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 * {
   margin: 0;
@@ -78,6 +78,7 @@ a {
   text-decoration: none;
 }
 body {
+  font-family: 'Work Sans', sans-serif;
   letter-spacing: 0.04rem;
   background-color: #edece7;
 }

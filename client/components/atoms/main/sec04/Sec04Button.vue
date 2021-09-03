@@ -17,9 +17,20 @@
   justify-content: center;
   cursor: pointer;
   margin-bottom: 3vw;
+  transition:all 0.6s;
 }
+.sec04-button-wrapper:hover {
+  background-color:#fff;
+  transition:all 0.35s;
+}
+
 .sec04-button-text {
   font-size: 14px;
   color: #fff;
+  transition:all 0.6s;
+}
+.sec04-button-wrapper:hover .sec04-button-text {
+  color: #b98a67;
+  transition:all 0.35s;
 }
 </style>

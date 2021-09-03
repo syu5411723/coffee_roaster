@@ -6,7 +6,7 @@
     </div>
     <div class="footer-bottom-b">
       <p>Mai.</p>
-      <p>1-1-16 Tezukayamanaka, Sumiyoshi-ku, Osaka, Japan</p>
+      <p> Kita-ku, Osaka, Japan</p>
       <p>reserved 2021</p>
     </div>
   </div>

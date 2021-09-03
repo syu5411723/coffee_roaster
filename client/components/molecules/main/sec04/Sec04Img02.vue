@@ -1,7 +1,7 @@
 ﻿<template>
     <div class="sec04-img02-wrapper">
         <img class="sec04-img02" src="../../../../static/images/roasting.jpg" alt="">
-        <p class="sec04-img02-text">Roasting</p>
+        <p class="sec04-img-text">Roasting</p>
     </div>
 </template>
 

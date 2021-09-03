@@ -27,10 +27,11 @@ header {
   height: 50px;
   position: fixed;
   z-index: 20;
-  top: 0;
+  top: 10px;
   left: 0;
   color: white;
   font-family: "Work Sans", sans-serif;
+  mix-blend-mode: difference;
 }
 .header-inner {
   display: flex;

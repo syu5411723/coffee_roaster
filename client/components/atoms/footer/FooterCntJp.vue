@@ -17,5 +17,6 @@
 }
 .footer-cntText-jp {
     margin-bottom: 4px;
+    margin-right: 30px;
 }
 </style>

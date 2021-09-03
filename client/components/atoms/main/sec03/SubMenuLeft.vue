@@ -12,5 +12,7 @@ export default {
 
 <style>
 .sub-menu-name {
+  font-size: 16px;
+  font-weight: 400;
 }
 </style>
